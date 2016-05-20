@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Test Gadget"
+  description="This is a test gadget" 
+  author="Arthur Kühlwein" 
+  author_email="arthur.kuehlwein@informatik.uni-heidelberg.de">
+    <Optional feature="gadget-directory">
+      <Param name="categories">JIRA</Param>
+    </Optional>
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[
+    Hello world!
+    ]]>
+  </Content>
+</Module>
